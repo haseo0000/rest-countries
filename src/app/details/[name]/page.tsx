@@ -8,8 +8,7 @@ type Props = {
 };
 
 async function getData(name: string) {
-  debugger;
-  const res = await fetch(`http://localhost:3000/api/${name}`, {
+  const res = await fetch(`${process.env.BASE_API_URL}/api/${name}`, {
     cache: "no-store",
   });
 
