@@ -4,6 +4,7 @@ select {
   border-radius: 5px;
   background: var(--bg-clr);
   color: var(--text-clr);
+  border: 1px solid var(--shadow-clr);
 }
 
 input {

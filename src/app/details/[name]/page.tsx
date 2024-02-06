@@ -16,7 +16,7 @@ async function getData(name: string) {
     throw new Error("Failed to fetch data");
   }
   const data = await res.json();
-  // console.log({ data });
+
   const mapData: ICountryDetails = {
     name: data.name,
     population: data.population,
