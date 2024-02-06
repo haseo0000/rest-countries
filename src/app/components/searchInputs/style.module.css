@@ -24,6 +24,10 @@
   position: relative;
 }
 
+.input_container {
+  border: 1px solid var(--shadow-clr);
+}
+
 @media (max-width: 900px) {
   .container {
     flex-wrap: wrap;
