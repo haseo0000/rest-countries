@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  position: absolute;
+  width: 20px;
+  aspect-ratio: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search {
+  left: 25px;
+}
+
+.down {
+  right: 10px;
+}
+
+.select_container,
+.input_container {
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}

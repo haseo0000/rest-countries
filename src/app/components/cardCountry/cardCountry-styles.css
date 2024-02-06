@@ -1,0 +1,20 @@
+.card-container {
+  height: 100%;
+  background: var(--bg-card-clr);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 1px var(--shadow-clr);
+  cursor: pointer;
+}
+
+.card-container:hover {
+  box-shadow: 0 0 20px 1px gray;
+}
+
+.card-details {
+  h2 {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-bottom: 1rem;
+  }
+}
